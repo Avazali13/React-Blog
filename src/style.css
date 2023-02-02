@@ -25,12 +25,28 @@
   text-align: center;
   background-color: #000;
   width: 100%;
+  height: auto;
   color: #fff;
   height: 600px;
   display: flex;
   flex-direction: column;
   gap: 15px;
-  padding: 80px 80px 80px 0px;
+  padding: 120px 80px 80px 0px;
+}
+.main .image1 {
+  position: absolute;
+  right: 15%;
+  bottom: 0%;
+}
+.main .image2 {
+  position: absolute;
+  left: 11%;
+  top: 5%;
+}
+.main .image3 {
+  position: relative;
+  right: 18%;
+  top: 45%;
 }
 .main .Name {
   font-size: 64px;
@@ -58,4 +74,56 @@
   background: rgba(255, 255, 255, 0.13);
   border-radius: 8px;
   color: #fff;
+}
+
+.main2 {
+  background-color: #000;
+}
+.main2 .top {
+  display: flex;
+}
+.main2 .image3 {
+  padding-left: 5%;
+}
+.main2 .Abouts {
+  color: #fff;
+  padding: 10px;
+  max-width: 91%;
+  padding-left: 6.2%;
+  font-size: 12px;
+}
+.main2 .Name {
+  color: #fff;
+  font-size: 55px;
+  max-width: 620px;
+  padding-top: 5%;
+}
+
+.main3 {
+  display: flex;
+  background-color: #000;
+}
+.main3 .Name {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58.09px;
+  color: white;
+  max-width: 500px;
+}
+.main3 .Abouts {
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #fff;
+  padding: 3% 0%;
+  max-width: 450px;
+}
+.main3 .Info {
+  padding: 5.5% 13%;
+}
+.main3 .image4 {
+  position: relative;
+  width: 263px;
+  height: 468px;
+  left: 44px;
+  top: 85px;
 }/*# sourceMappingURL=style.css.map */
